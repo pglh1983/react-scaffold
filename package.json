@@ -1,0 +1,56 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "description": "Skeleton of a React app",
+  "main": "src/index.jsx",
+  "author": "Peter Hall",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://.git"
+  },
+  "keywords": [
+  ],
+  "pre-commit": [
+    "lint"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production parcel build src/index.html -d output/production/ --no-cache",
+    "lint": "eslint . --ext .js,.jsx",
+    "lint:fix": "eslint . --ext .js,.jsx --fix",
+    "start": "parcel src/index.html -d output/dev/",
+    "styleguide": "start-storybook -p 9001",
+    "styleguide:build": "build-storybook -o output/styleguide",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "babel-loader": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.2",
+    "babel-jest": "^25.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^25.3.0",
+    "require-context.macro": "^1.2.2",
+    "pre-commit": "^1.2.2"
+  }
+}
