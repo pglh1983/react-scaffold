@@ -9,8 +9,7 @@
     "type": "git",
     "url": "git+https://.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "pre-commit": [
     "lint"
   ],
@@ -24,19 +23,17 @@
     "test": "jest"
   },
   "dependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-react": "^7.9.4",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "babel-loader": "^8.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "parcel-bundler": "^1.12.4"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-knobs": "^5.3.18",
     "@storybook/react": "^5.3.18",
@@ -50,6 +47,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "jest": "^25.3.0",
+    "parcel-bundler": "^1.12.4",
     "require-context.macro": "^1.2.2",
     "pre-commit": "^1.2.2"
   }
