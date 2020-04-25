@@ -28,7 +28,9 @@ The intention of my configuration is to keep the components super modular and in
         molecules/
           ...
 
-Normally I would separate the styleguide and the app itself into two projects, and have the app require components exported from the styleguide as a dependency. However, this configuration lends itself well to smaller projects, and is very easy to split into two. Also not included is any state management (`redux`, `redux-sagas` etc), again because this is intended for smaller projects but also because on larger projects I may want to share the state management layer with a separate (e.g. React Native) front end.
+Normally I would separate the styleguide and the app itself into two projects, and have the app require components exported from the styleguide as a dependency. However, this configuration lends itself well to smaller projects, and is very easy to split into two.
+
+In the `master` branch there is no state management. For projects that require state management, clone from the `redux` branch which includes `redux` and `redux-saga` with some boilerplate.
 
 ## Installation
 
