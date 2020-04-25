@@ -1,4 +1,4 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 
 const INITIAL_STATE = {};
 
@@ -11,8 +11,8 @@ const nullReducer = (state = INITIAL_STATE, action) => {
     default:
       return { ...state };
   }
-}
+};
 
 export default combineReducers({
-  null: nullReducer
+  null: nullReducer,
 });
