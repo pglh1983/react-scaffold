@@ -1,3 +1,5 @@
+__Note:__ This repo is even older than the TypeScipt one - as such it doesn't represent my current thinking or use current APIs. As with the TS one, it needs updating to use Storybook 6, DocsPage etc etc..... or maybe just ignore this in favour of the TS version ;)
+
 # Peter's React Scaffold
 
 This repository exists as a bare-bones React app that does nothing, but integrates a bunch of stuff I'm probably going to need. It includes:
